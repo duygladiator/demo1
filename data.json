@@ -1,0 +1,69 @@
+{
+  "heroImg": [
+    {
+      "img": "./resource/hero-img.png"
+    }
+  ],
+  "heroSection": [
+    {
+      "video": "./resource/track.png"
+    }
+  ],
+
+  "card": [
+    {
+      "cardTitle": "AIR FREIGHT WORLDWIDE",
+      "cardIcon": "./resource/air-freight1.png",
+      "imgUrl": "./resource/air-freight.png"
+    },
+    {
+      "cardTitle": "SEA FREIGHT WORLDWIDE",
+      "cardIcon": "./resource/sea-freight1.png",
+      "imgUrl": "./resource/sea-freight.png"
+    },
+    {
+      "cardTitle": "PROJECT LOGISTICS",
+      "cardIcon": "./resource/project-log1.png",
+      "imgUrl": "./resource/project-log.png"
+    },
+    {
+      "cardTitle": "ROAD TRANSPORTATION",
+      "cardIcon": "./resource/road-trans1.png",
+      "imgUrl": "./resource/road-trans.png"
+    },
+    {
+      "cardTitle": "MULTIMODAL TRANSPORT",
+      "cardIcon": "./resource/multimodal-trans1.png",
+      "imgUrl": "./resource/multimodal-trans.png"
+    },
+    {
+      "cardTitle": "AUXILARY SERVICES",
+      "cardIcon": "./resource/auxilary-services1.png",
+      "imgUrl": "./resource/auxilary-services.png"
+    }
+  ],
+
+  "media": [
+    {
+      "title": "ANNOUNCEMENT",
+      "imgUrl": "./resource/announce.png",
+      "iconUrl": "./resource/news-icon.png",
+      "icon1Url": "./resource/clock-icon.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem non totam recusandae laudantium nobis. Ipsam debitis id natus dolore."
+    },
+    {
+      "title": "INTERNAL NEWS",
+      "imgUrl": "./resource/internal-news.png",
+      "iconUrl": "./resource/news-icon.png",
+      "icon1Url": "./resource/clock-icon.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem non totam recusandae laudantium nobis. Ipsam debitis id natus dolore."
+    },
+    {
+      "title": "LOGISTIC AND FORWARDING NEWS",
+      "imgUrl": "./resource/log-and-forward.png",
+      "iconUrl": "./resource/news-icon.png",
+      "icon1Url": "./resource/clock-icon.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem non totam recusandae laudantium nobis. Ipsam debitis id natus dolore."
+    }
+  ]
+}
