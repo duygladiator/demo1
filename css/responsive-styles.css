@@ -13,8 +13,25 @@
 
   /*  */
   /* CSS header section */
+  .header__contact-container {
+    justify-content: space-around;
+  }
+
   .header__nav .header__nav-burger {
-    width: 100%;
+    display: block;
+  }
+
+  .header__nav .header__nav-burger button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .header__nav .header__nav-burger button:focus {
+    outline: none;
+  }
+
+  .header__nav .header__nav-burger i {
+    font-size: 27px;
   }
 
   .header__contact-container-left {
@@ -39,37 +56,379 @@
     display: none;
   }
 
-  /* .header__nav-navbar div:first-child {
+  .show {
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  }
+
+  /* CSS hero-section */
+  .hero-section_plan {
+    margin: 0 auto;
+    display: inline-table;
     width: 100%;
-    gap: 10px;
-  } */
+  }
 
-  /* .header__nav-navbar .dropdown {
-    display: none;
-  } */
+  .hero-section_plan-tracking,
+  .hero-section_plan-video {
+    max-width: 100%;
+  }
+  /* end hero-section */
 
-  /* .header__nav-navbar div:first-child:hover .header__nav-navbar .dropdown {
-    display: block;
-    background-color: red;
-  } */
+  /* CSS media section */
+  .media .card .card-body {
+    padding: 10px;
+  }
+  /* end CSS media section */
+
+  /* CSS footer section */
+  .footer .container {
+    justify-content: space-between;
+  }
+
+  .footer_info {
+    max-width: 27%;
+    flex: none;
+    padding: 0 5px;
+  }
+
+  .footer__about {
+    max-width: 40%;
+    flex: none;
+    padding: 0;
+  }
+
+  .footer__about h5 {
+    margin: 0;
+  }
+
+  .footer_about-section {
+    padding-left: 25px;
+    gap: 14px;
+  }
+
+  .footer-subscribe {
+    max-width: 29%;
+  }
+
+  .footer-subscribe .card {
+    top: -21%;
+    height: 355px;
+    width: fit-content;
+  }
+
+  .footer-subscribe .card_call-icon {
+    left: 39%;
+    top: 57%;
+  }
+  /* end CSS footer section */
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
+  .header__contact-container,
+  .header__nav,
+  .hero-section_plan,
+  .highlight,
+  .media,
+  .footer .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*  */
+  /* CSS header section */
+  .header__contact-container {
+    justify-content: space-around;
+  }
+
+  .header__nav .header__nav-burger {
+    display: block;
+  }
+
+  .header__nav .header__nav-burger button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .header__nav .header__nav-burger button:focus {
+    outline: none;
+  }
+
+  .header__nav .header__nav-burger i {
+    font-size: 27px;
+  }
+
+  .header__contact-container-left {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  #head__contact a:last-child {
+    display: none;
+  }
+
+  .header__nav-logo {
+    margin: 0 auto;
+  }
+
+  .header__nav-navbar {
+    margin-right: auto;
+    display: none;
+  }
+
+  .show {
+    display: flex;
+  }
+
+  /* CSS hero-section */
+  .hero-section_plan {
+    margin: 0 auto;
+    display: inline-table;
+    width: 100%;
+  }
+
+  .hero-section_plan-tracking,
+  .hero-section_plan-video {
+    max-width: 100%;
+  }
+  /* end hero-section */
+
+  /* CSS highlight-section */
+  .highlight {
+    justify-content: space-around;
+  }
+  /* end CSS highlight-section */
+
+  /* CSS media section */
+  .media .card .card-body {
+    padding: 10px;
+  }
+  /* end CSS media section */
+
+  /* CSS footer section */
+  .footer .container {
+    justify-content: space-between;
+  }
+
+  .footer_info {
+    max-width: 27%;
+    flex: none;
+    padding: 0 5px;
+  }
+
+  .footer__about {
+    max-width: 40%;
+    flex: none;
+    padding: 0;
+  }
+
+  .footer__about h5 {
+    margin: 0;
+  }
+
+  .footer_about-section {
+    padding-left: 25px;
+    gap: 14px;
+  }
+
+  .footer-subscribe {
+    max-width: 29%;
+  }
+
+  .footer-subscribe .card {
+    top: -21%;
+    height: 355px;
+    width: fit-content;
+  }
+
+  .footer-subscribe .card_call-icon {
+    left: 39%;
+    top: 57%;
+  }
+  /* end CSS footer section */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 822px) {
+  .header__contact-container,
+  .header__nav,
+  .hero-section_plan,
+  .highlight,
+  .media,
+  .footer .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /*  */
+  /* CSS header section */
+  .header__contact-container {
+    justify-content: space-around;
+  }
+
+  .header__nav .header__nav-burger {
+    display: block;
+  }
+
+  .header__nav .header__nav-burger button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .header__nav .header__nav-burger button:focus {
+    outline: none;
+  }
+
+  .header__nav .header__nav-burger i {
+    font-size: 27px;
+  }
+
+  .header__contact-container-left {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  #head__contact a:last-child {
+    display: none;
+  }
+
+  .header__nav-logo {
+    margin: 0 auto;
+  }
+
+  .header__nav-navbar {
+    margin-right: auto;
+    display: none;
+  }
+
+  .show {
+    display: flex;
+  }
+
+  /* CSS hero-section */
+  .hero-section_plan {
+    margin: 0 auto;
+    display: inline-table;
+    width: 100%;
+  }
+
+  .hero-section_plan-tracking,
+  .hero-section_plan-video {
+    max-width: 100%;
+  }
+  /* end hero-section */
+
+  /* CSS highlight-section */
+  .highlight {
+    justify-content: space-around;
+  }
+  /* end CSS highlight-section */
+
+  /* CSS media section */
+  .media .card .card-body {
+    padding: 10px;
+  }
+  /* end CSS media section */
+
+  /* CSS footer section */
+  .footer .container {
+    justify-content: space-between;
+  }
+
+  .footer_info {
+    max-width: 27%;
+    flex: none;
+    padding: 0 5px;
+  }
+
+  .footer__about {
+    max-width: 40%;
+    flex: none;
+    padding: 0;
+  }
+
+  .footer__about h5 {
+    margin: 0;
+  }
+
+  .footer_about-section {
+    padding-left: 25px;
+    gap: 14px;
+  }
+
+  .footer-subscribe {
+    max-width: 29%;
+  }
+
+  .footer-subscribe .card {
+    top: -21%;
+    height: 355px;
+    width: fit-content;
+  }
+
+  .footer-subscribe .card_call-icon {
+    left: 39%;
+    top: 57%;
+  }
+  /* end CSS footer section */
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 823px) {
+  .header__nav-navbar .dropdown {
+    gap: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 866px) {
+  .header__contact-container,
+  .header__nav,
+  .hero-section_plan,
+  .highlight,
+  .media-section,
+  .footer .container {
+    width: 100%;
+    max-width: 866px;
+    margin: 0 auto;
+  }
+
+  .header__nav {
+    padding: 0 10px;
+  }
+  /* CSS highlight-section */
+  .highlight {
+    justify-content: space-around;
+  }
+  /* end CSS highlight-section */
+
+  .header__nav-navbar .drop .drop-ele .show {
+    display: flex;
+  }
+
+  .header__nav .menu {
+    position: fixed;
+    top: 0;
+    left: -320px;
+    bottom: 0;
+    width: 320px;
+    height: auto;
+    background-color: #fff;
+    z-index: 999;
+    overflow-y: auto;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .header__nav .show {
+    left: 0;
+  }
 }

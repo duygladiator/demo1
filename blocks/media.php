@@ -1,8 +1,10 @@
-<div class="media">
+<div class="media-section">
   <div class="media__title">
-    <h1>LATEST MEDIA</h1>
-    <h5>Latest News</h5>
+    <h5>LATEST MEDIA</h5>
+    <p>Latest News</p>
   </div>
 
-  <div class="media__card row" id="media"></div>
+  <div class="media">
+    <div class="media__card media-carousel owl-carousel item" id="media__card"></div>
+  </div>
 </div>

@@ -64,6 +64,27 @@
       "iconUrl": "./resource/news-icon.png",
       "icon1Url": "./resource/clock-icon.png",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem non totam recusandae laudantium nobis. Ipsam debitis id natus dolore."
+    },
+    {
+      "title": "ANNOUNCEMENT",
+      "imgUrl": "./resource/announce.png",
+      "iconUrl": "./resource/news-icon.png",
+      "icon1Url": "./resource/clock-icon.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem non totam recusandae laudantium nobis. Ipsam debitis id natus dolore."
+    },
+    {
+      "title": "INTERNAL NEWS",
+      "imgUrl": "./resource/internal-news.png",
+      "iconUrl": "./resource/news-icon.png",
+      "icon1Url": "./resource/clock-icon.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem non totam recusandae laudantium nobis. Ipsam debitis id natus dolore."
+    },
+    {
+      "title": "LOGISTIC AND FORWARDING NEWS",
+      "imgUrl": "./resource/log-and-forward.png",
+      "iconUrl": "./resource/news-icon.png",
+      "icon1Url": "./resource/clock-icon.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem non totam recusandae laudantium nobis. Ipsam debitis id natus dolore."
     }
   ]
 }

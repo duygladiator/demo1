@@ -13,7 +13,7 @@
           <h5>Head Office:</h5>
         </div>
         <p>
-          SAV8 - 14.11 & 14.12 <br> The Sun Avenue, 28 Mai Chi Tho <br> Phuong An Phu,
+          SAV8 - 14.11 & 14.12 The Sun Avenue, 28 Mai Chi Tho Phuong An Phu,
           TP. Thu Duc, TPHCM
         </p>
       </div>
@@ -26,10 +26,10 @@
       </div>
     </div>
 
-    <div class="footer__about col col-4">
+    <div class="footer__about col-4">
       <h5>CÔNG TY CỔ PHẦN <br> SEA AND AIR SERVICES <br> VIỆT NAM</h5>
       <div class="footer_about-section row">
-        <div class="footer_about-section1 col-6">
+        <div class="footer_about-section1">
           <ul>
             <li><a href="">Our Investor</a></li>
             <li><a href="">Recent Project</a></li>
@@ -38,7 +38,7 @@
             <li><a href="">Job/Career</a></li>
           </ul>
         </div>
-        <div class="footer_about-section2 col-6">
+        <div class="footer_about-section2">
           <ul>
             <li><a href="">Service Provider</a></li>
             <li><a href="">Our Responsibility</a></li>
@@ -51,23 +51,23 @@
     </div>
 
     <div class="footer-subscribe col-5">
-      <div class="card" style="width: 18rem">
+      <div class="card">
         <div class="card-body">
           <h5 class="card-title">Subscribe for latest newsletter</h5>
-          <form>
+          <form action="../getdata/subscribe-newsletter_form.php" method="POST">
             <div class="mb-3">
-              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name" />
+              <input type="text" class="form-control" id="name" placeholder="Name" name="name" />
             </div>
             <div class="mb-3">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
             </div>
             <button type="submit" class="btn w-100">
               SUBSCRIBE NOW
               <span><img src="../resource/arrow-right-white.png" alt="" /></span>
             </button>
             <div class="call">
-              <h5>CALL US:</h5>
-              <h5>028 73001439</h5>
+              <p>CALL US:</p>
+              <a href="tel:02873001439">028 73001439</a>
             </div>
           </form>
         </div>
@@ -77,6 +77,33 @@
         <!-- <div class="card_call-icon"></div> -->
       </div>
       <div class="footer_subcribe-img"></div>
+
+      <script>
+      function validateForm() {
+        // reset error messages
+        document.getElementById('nameError').textContent = '';
+        document.getElementById('emailError').textContent = '';
+
+        // get form input values
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+
+        // validate name
+        if (name.trim() === '') {
+          document.getElementById('nameError').textContent = 'Please enter your name.';
+          return false;
+        }
+
+        // validate email
+        var emailRegex = /^\S+@\S+\.\S+$/;
+        if (!emailRegex.test(email)) {
+          document.getElementById('emailError').textContent = 'Please enter a valid email address.';
+          return false;
+        }
+
+        return true;
+      }
+      </script>
     </div>
   </div>
 </footer>

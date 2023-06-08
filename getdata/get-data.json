@@ -1,0 +1,117 @@
+{
+  "name": "user1",
+  "email": "user1@user.com",
+  "0": {
+    "name": "user",
+    "email": "user@user.com"
+  },
+  "1": {
+    "name": "user",
+    "email": "user@user.com"
+  },
+  "2": {
+    "name": "user1",
+    "email": "user1@user.com"
+  },
+  "3": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "4": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "5": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "6": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "7": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "8": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "9": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "10": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "11": {
+    "serviceType": "",
+    "branchOffice": ""
+  },
+  "12": {
+    "name": "admin",
+    "email": "admin@admin.com"
+  },
+  "13": {
+    "serviceType": "Air Service",
+    "branchOffice": "Type"
+  },
+  "14": {
+    "serviceType": "Air Service",
+    "branchOffice": "Type"
+  },
+  "15": {
+    "serviceType": "airService",
+    "branchOffice": "typeNo"
+  },
+  "16": [],
+  "17": {
+    "branchOffice": "typeNo"
+  },
+  "18": {
+    "serviceType": "airService",
+    "branchOffice": "typeNo"
+  },
+  "19": {
+    "serviceType": "airService",
+    "branchOffice": "typeNo",
+    "selectedCheckboxes": ["airService", "typeNo"]
+  },
+  "20": {
+    "selectedCheckboxes": []
+  },
+  "21": {
+    "serviceType": "seaService",
+    "branchOffice": "typeNo",
+    "selectedCheckboxes": ["seaService", "typeNo"]
+  },
+  "22": {
+    "serviceType": "airService",
+    "branchOffice": "typeNo",
+    "selectedCheckboxes": ["airService", "typeNo"]
+  },
+  "23": {
+    "serviceType": "airService",
+    "branchOffice": "trackCargo",
+    "selectedCheckboxes": ["airService", "trackCargo"]
+  },
+  "24": {
+    "serviceType": "airService",
+    "branchOffice": "typeNo",
+    "selectedServiceTypes": "airService",
+    "selectedBranchOffices": "typeNo"
+  },
+  "25": {
+    "serviceType": "seaService",
+    "branchOffice": "trackCargo",
+    "selectedServiceTypes": "seaService",
+    "selectedBranchOffices": "trackCargo"
+  },
+  "26": {
+    "serviceType": "airService",
+    "branchOffice": "trackCargo",
+    "selectedServiceTypes": "airService",
+    "selectedBranchOffices": "trackCargo"
+  }
+}
